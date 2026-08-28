@@ -1,0 +1,52 @@
+/* ==============================
+   MODO OSCURO
+============================== */
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Fondo general */
+body.dark-mode {
+    background-color: #111827 !important;
+    color: #f9fafb !important;
+}
+
+/* Todas las secciones */
+body.dark-mode section {
+    background-color: #1f2937 !important;
+}
+
+/* Títulos */
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: #f9fafb !important;
+}
+
+/* Textos */
+body.dark-mode p,
+body.dark-mode li {
+    color: #d1d5db !important;
+}
+
+/* Footer */
+body.dark-mode footer {
+    background-color: #111827 !important;
+    border-color: #374151 !important;
+}
+
+/* Textos del footer */
+body.dark-mode footer h3,
+body.dark-mode footer span {
+    color: #f9fafb !important;
+}
+
+/* Enlaces del footer */
+body.dark-mode footer a {
+    color: #d1d5db !important;
+}
+
+/* Menú móvil */
+body.dark-mode #mobileMenu {
+    background-color: #111827 !important;
+}
